@@ -24,4 +24,7 @@ resource "azurerm_resource_group" "rg6" {
   tags = {
     environment = "dev"
   }
+  tags = {
+    environment = "dev"
+  }
 }
