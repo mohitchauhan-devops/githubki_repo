@@ -2,3 +2,9 @@ resource "azurerm_resource_group" "rg" {
   name     = "git_ka_rg"
   location = "West Europe"
 }
+
+resource "azurerm_resource_group" "rg1" {
+  name     = "git_ka_rg01"
+  location = "West Europe"
+}
+
