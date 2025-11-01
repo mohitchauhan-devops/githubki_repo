@@ -16,16 +16,3 @@ resource "azurerm_resource_group" "rg3" {
   name     = "git_ka_rg101"
   location = "West Europe"
 }
-
-
-resource "azurerm_resource_group" "rg4" {
-  name     = "git_ka_rg102"
-  location = "West Europe"
-}
-
-resource "azurerm_resource_group" "rg5" {
-  name     = "git_ka_rg103"
-  location = "West Europe"
-}
-
-
