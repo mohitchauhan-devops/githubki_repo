@@ -3,8 +3,16 @@ resource "azurerm_resource_group" "rg" {
   location = "West Europe"
 }
 
+
 resource "azurerm_resource_group" "rg1" {
   name     = "git_ka_rg01"
+  location = "West Europe"
+}
+
+
+
+resource "azurerm_resource_group" "rg3" {
+  name     = "git_ka_rg101"
   location = "West Europe"
 }
 
