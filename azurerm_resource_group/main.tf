@@ -26,6 +26,9 @@ resource "azurerm_resource_group" "rg4" {
 resource "azurerm_resource_group" "rg5" {
   name     = "git_ka_rg103"
   location = "West Europe"
+  tags = {
+    environment = "dev"
+  }
 }
 
 
